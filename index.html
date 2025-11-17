@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Convertidor mts a km</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Convertidor de Metros a Kilómetros</h1>
+        <label>Ingrese el numero a convetir en metros</label>
+        <input type="text" id="in_metros" placeholder="Ingrese metros"></input>
+        <br><br>
+        <button type="button" onclick="convertirMetrosAKilometros()">Convertir</button>
+        <script src="script.js"></script>
+        <br><br>
+        <label>El resultado en kilometros es: </label>
+        <input type="text" id="out_kilometros"  disabled></input>
+
+        <br><br>
+        <h1>Calculadora</h1>
+        <input type="text" placeholder="Ingrese valor 1" id="in_num1">
+        <input type="text" placeholder="Ingrese valor 2" id="in_num2">
+        <br><br>
+        <button type="button" onclick="sumarNumeros()">Suma</button>
+        <button type="button" onclick="restaNumeros()">Resta</button>
+        <button type="button" onclick="multiplicarNumeros()">Multiplicacion</button>
+        <button type="button" onclick="divisorNumeros()">Division</button>
+        <br><br>
+        <input type="text" id="out_result"  disabled></input>
+        <br><br>
+
+        <h1>Calculadora IMC</h1>
+        <label>Peso (kg): </label>
+        <input type="text" id="in_peso" placeholder="Ingrese su peso en kg"></input>
+        <br><br>
+        <label>Estatura (mts): </label>
+        <input type="text" id="in_estatura" placeholder="Ingrese su estatura en mts"></input>
+        <br><br>        
+        <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+        <script src="script.js"></script>
+        <br><br>
+        <label>Su IMC es: </label>
+        <input type="text" id="out_imc" disabled></input>
+
+
+    </body>
+</html>
