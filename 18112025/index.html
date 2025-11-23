@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Captura de nuevo cliente</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <link rel='stylesheet' type='text/css' media='screen' href='styel.css'>
+        
+    </head>
+    <body>
+        <h1>Captura de nuevo cliente</h1>
+        <br>
+        <label >Ingrese nombre del cliente:</label>
+        <input type="text" id="in_cliente" name="in_cliente">
+        <br>
+        <label >Ingrese apellido paterno del cliente:</label>
+        <input type="text" id="in_apellido_paterno" name="in_apellido_paterno">
+        <br>
+        <label >Ingrese apellido materno del cliente:</label>
+        <input type="text" id="in_apellido_materno" name="in_apellido_materno">
+        <br><br>
+        <button id="btn_guardar" onclick="getClientData()">Generar nombre completo</button>
+        <script src="script.js"></script>   
+        <input type="text" id="out_datos_cliente" name="out_datos_cliente" readonly>
+        
+    </body>
+</html>
