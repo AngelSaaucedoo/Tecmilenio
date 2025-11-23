@@ -6,24 +6,74 @@
         <title>Captura de nuevo cliente</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-        <link rel='stylesheet' type='text/css' media='screen' href='styel.css'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
         
     </head>
     <body>
-        <h1>Captura de nuevo cliente</h1>
-        <br>
-        <label >Ingrese nombre del cliente:</label>
-        <input type="text" id="in_cliente" name="in_cliente">
-        <br>
-        <label >Ingrese apellido paterno del cliente:</label>
-        <input type="text" id="in_apellido_paterno" name="in_apellido_paterno">
-        <br>
-        <label >Ingrese apellido materno del cliente:</label>
-        <input type="text" id="in_apellido_materno" name="in_apellido_materno">
-        <br><br>
-        <button id="btn_guardar" onclick="getClientData()">Generar nombre completo</button>
-        <script src="script.js"></script>   
-        <input type="text" id="out_datos_cliente" name="out_datos_cliente" readonly>
+        <div id="header" class="contenedor">
+            <h1>Captura de nuevo cliente</h1>
+        </div>
+       
+        <div id="formulario_cliente" class="form-group">
+            <label >Ingrese nombre del cliente:</label>
+            <input type="text" id="in_cliente" name="in_cliente">
         
+            <label >Ingrese apellido paterno del cliente:</label>
+            <input type="text" id="in_apellido_paterno" name="in_apellido_paterno">
+        
+            <label >Ingrese apellido materno del cliente:</label>
+            <input type="text" id="in_apellido_materno" name="in_apellido_materno">
+        
+            <button id="btn_guardar" onclick="getClientData()">Generar nombre completo</button>
+            <script src="script.js"></script>   
+            <input type="text" id="out_datos_cliente" name="out_datos_cliente" readonly> 
+        </div>
+     
+
+        <div id="manipulacion_cadenas" class="form-group">
+            <h2>Manipulacion de Cadenas</h2>
+            <label>El Valor de la posicion 7 es:</label>
+            <input type="text" id="out_valor_posicion_7" name="out_valor_posicion_7" readonly>
+          
+            <label>El Valor de la posicion 10 es:</label>
+            <input type="text" id="out_valor_posicion_10" name="out_valor_posicion_10" readonly>
+
+            
+            <label>Nombre Upper es:</label>
+            <input type="text" id="out_nombre_upper" name="out_nombre_upper" readonly>
+            
+            <label>Nombre Lower es:</label>
+            <input type="text" id="out_nombre_lower" name="out_nombre_lower" readonly>
+        </div>
+
+       <!-- Formato de Fecha -->
+        <div id="header" class="contenedor">
+            <h1>Ejercicio de Manipulacion de Cadenas y Fechas</h1>
+        </div>
+        
+        <div id="header" class="contenedor">
+             <h2>Formato de Fecha</h2>
+        </div>
+        
+
+        <div id="formato_fecha" class="form-group">
+            <label> Ingrese dia</label>
+            <input type="text" id="in_dia" name="in_dia">
+                
+            <label> Ingrese mes</label>
+            <input type="text" id="in_mes" name="in_mes">
+            
+            <label> Ingrese año</label>
+            <input type="text" id="in_año" name="in_año">
+            
+            <button id="btn_generar_fecha" onclick="getDateFormat()">Generar Fecha</button>
+            <script src="script.js"></script>
+            
+            <label>Fecha Formateada:</label>
+            <input type="text" id="out_fecha_formateada" name="out_fecha_formateada" readonly>
+        </div>
+
     </body>
 </html>
