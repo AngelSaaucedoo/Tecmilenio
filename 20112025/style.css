@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #04d3d323;
+}
+
+.hs1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 5px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.caja{
+    display: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    background: #0077ffa8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.form-container input{
+    flex: 1;
+    width: auto;
+}
+
+.form-container label{
+    flex-basis: 150px;
+   
+}
+
+button {
+    background-color: #4CAF50;
+    color: rgb(255,255, 255);
+    padding: 10px 25px;  
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+textarea {
+    flex: 1;
+    width: auto;
+    height: auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
