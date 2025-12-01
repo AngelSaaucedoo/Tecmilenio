@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Aprendiendo Framework</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsivo tamaño pantalla -->
+        <meta charset="UTF-8"> <!-- Acentos -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>Hola mundo de bootstrap</h1>
+            <h2>Uso de botones</h2>
+            <button class="btn btn-dark btn-sm">Ejecutar</button>
+            <button class="btn btn-dark btn-md">Ejecutar</button>
+            <button class="btn btn-dark btn-lg">Ejecutar</button>
+            <button class="btn btn-success btn-sm">Ejecutar</button>
+            <button class="btn btn-danger btn-sm">Ejecutar</button>
+
+            <h2>Uso de clases contextuales</h2>
+            <p class="text-warning">Prevencion</p>
+            <p class="text-primary">Primario</p>
+            <p class="text-secondary">Secundario</p>
+            <p class="text-success">Exito</p>
+            <p class="text-danger">Error</p>
+            <p class="text-info">Informacion</p>
+            <p class="text-dark">Oscuro</p>
+            <p class="text-light bg-dark">Claro</p>
+            
+            <h2>Uso de alertas</h2>
+            <div class="alert alert-primary" role="alert">
+                Este es un mensaje de alerta primaria</div>
+            <div class="alert alert-secondary" role="alert">
+                Este es un mensaje de alerta secundaria</div>
+            <div class="alert alert-success" role="alert">
+                Este es un mensaje de alerta de exito</div>
+            <div class="alert alert-danger" role="alert">
+                Este es un mensaje de alerta de error</div>
+            <div class="alert alert-warning" role="alert">
+                Este es un mensaje de alerta de prevencion</div>
+            <div class="alert alert-info" role="alert">
+                Este es un mensaje de alerta de informacion</div>
+            <div class="alert alert-dark" role="alert">
+                Este es un mensaje de alerta oscura</div>   
+            <div class="alert alert-light" role="alert">
+                Este es un mensaje de alerta clara</div>
+           
+            <h2>Uso de mayusculas y minusculas</h2>
+            <p class="text-uppercase">texto en mayusculas</p>
+            <p class="text-lowercase">TEXTO EN MINUSCULAS</p>
+            <p class="text-capitalize">texto con mayuscula inicial</p> 
+            <p class="text-start">texto con mayuscula inicial</p>   
+            <p class="text-center">texto con mayuscula inicial</p>  
+            <p class="text-end">texto con mayuscula inicial</p>
+
+            <p class="text-center text-lowercase text-primary">texto con mayuscula inicial</p>  
+
+            <h2>Uso de formulario</h2>
+            <form>
+                <div class="mb-3"> <!-- mb-3 margin bottom para separar los elementos del formulario -->
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre"> <!-- form-control boostrap para dar estilo a los inputs -->
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
