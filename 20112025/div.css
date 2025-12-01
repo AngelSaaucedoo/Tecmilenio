@@ -5,42 +5,38 @@ body {
 }
 
 .container {
-    position: relative;
     width: 100%;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.600);
-    display: grid;                     /* Usar GRID */
-    grid-template-columns: repeat(2, 2fr);  /* 2 COLUMNAS */
-    gap: 30px;                         /* Espacio entre cards */
-    justify-items: center;             /* Centrar los cards horizontalmente */
-    align-items: start;                /* Alinearlos arriba */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;                /* Menos separación */
     padding: 20px;
+    justify-items: center;
+    align-items: start;
     border-radius: 5px;
 }
 
 .card {
-    position: relative;
     width: 100%;
-    height: 50%;
-    /*border: 1px solid black;*/
     background: white;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    gap: 5px;
-    padding: 5px;
-    font-size: 20px;
+    gap: 10px;
+    padding: 15px;
+    font-size: 18px;
     border-radius: 5px;
     box-shadow: 0 0 8px #00000030;
 }
 
 .card input {
-    width: 80%;
+    width: 100%;
     padding: 5px;
 }
 
-.container label {
-    flex-basis: 10px;
-    text-align: center;
+.card label {
+    width: 100%;
+    text-align: left;
 }

@@ -49,7 +49,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #0077ffa8;
+    background: #0077ff8a;
     padding: 10px;
     border-radius: 5px;
     margin-top: 5px;
@@ -93,4 +93,26 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-top: 5px;
+}
+
+/* Caja de encabezado */
+
+.cajaEncabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #ffffffa8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 0 0 8px #0077ff5b;
+}
+
+.cajaEncabezado label {
+    flex-basis: 150px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+   
 }
