@@ -1,0 +1,113 @@
+/*reglas generales*/
+
+/*Media Query*/
+
+/** Reescribir colores */
+
+/** * {
+  border: solid 1px red;  Esta linea es solo para pruebas y debe eliminarse despues 
+} */
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.raleway-Font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.playfair-Font {
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+h1 {
+    color: #000000;
+    font-size: 3rem;
+    text-align: center;
+    /*background-color: blueviolet;*/
+}
+
+span.title {
+    color: #037bc0;
+}
+
+
+
+/*Navbar Configuration*/
+.navbar {
+    background-color: #0077b6;
+    display: flex; /*Usar Flex: acomoda en flex */
+    align-items: center;
+    /*justify-content: center;*/ /*Centrar logo y menu*/
+    justify-content: space-between; /*Espacio entre logo y menu*/
+    padding: 5px 40px; /*Espaciado interno*/
+}
+
+.menu {
+    list-style: none; /*Quitar viñetas de la lista*/
+    display: flex; /*Hacer que los elementos de la lista estén en línea*/
+    gap: 25px;
+}
+
+.menu li a {
+    text-decoration: none; /*Quitar subrayado de los enlaces*/
+    color: white;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #ffd60a;
+}
+
+/*Navbar Logo*/
+
+.logo img {
+    height: 20px;
+    margin-right: 30px; /*Espacio entre logo y menú*/
+}
+
+
+/*Navbar Busqeuda*/
+.search {
+    display: flex;
+    gap: 5px; /*Espacio entre input y botón*/
+}
+
+.search input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    background-color: #0077b6;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search button:active {
+    background-color: #005f87;
+    border: solid 1px #005f87;
+    color: #ffffff;
+    transition: background-color 0.3s;
+
+}
+
+/** Productos */
